@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+    <title>Black Rhino</title> 
+    <link rel="stylesheet" href="Styles/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Animals</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar" id="myNavbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="AnimalsvsPokemon.html">Animals and Pokémon</a>
+      <a href="BaldEagle.html">Bald Eagle</a>
+      <a href="BlueWhale.html">Blue Whale</a>
+      <a href="Capybara.html">Capybara</a>
+      <a href="KingCobra.html">King Cobra</a>
+      <a href="Tigers.html">Tiger</a>
+      <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+
+  <div id="rhino-heading">
+  <h1>Black Rhino</h1>
+  </div>
+  <section>
+    <div class="row">
+      <div class="card">
+        <p style="font-size: 150%">The black rhinoceros (diceros bicornis) is a species of African rhino. Smaller than the white rhino, they were once found throughout most of sub-Saharan Africa but are now critically endangered due to poaching.</p>
+        <img src="Images/Black Rhino.webp" alt="Picture of a black rhino" width="100%" height="462">
+      </div>
+      
+    </div>
+    <br>
+    <br>
+  </section>
+
+  <div class="container">
+  <h2>Quick Facts</h2>
+  <div class="row">
+    <div class="column">
+      <ul>
+        <li>Despite their name, black rhinos actually have grey skin.</li>
+        <li>A black rhino can have skin up to 5cm thick.</li>
+        <li>Black rhinos are native to Africa and can be found in countries such as Kenya, Namibia, South Africa, and Swaziland.  </li>    
+      </ul>
+    </div>
+    <div class="column">
+      <ul>
+        <li> The average lifespan of a black rhino is between 40 and 50 years.</li>
+        <li>Although smaller than the white rhino, black rhinos can reach weight of up to 1300kg and a height of up to 1.6m.</li>
+        <li>A black rhino can run at speeds betwen 30 and 40mph.</li>
+      </ul>
+    </div>
+    <div class="column">
+      <ul>
+        <li>Black rhinos are critically endangered today, having been victims of poaching.</li> 
+        <li>Their estimated population in 1995 was less than 2500 but conservation efforts have increased the population to more than 6000 today.</li>
+        <li>Black rhinos are herbivores, feeding on leaves, twigs, branches and fruit.</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+<br>
+<br>
+
+<section class="chart-container">
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+</section>
+
+<footer>
+    <p style="text-align: center;">Designed by C. Dearing</p>
+</footer>
+
+<script src="Scripts/script.js"></script>
+<script src="Scripts/graph.js"></script>
+</body>
+
+</html>

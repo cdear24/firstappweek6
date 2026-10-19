@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animals and Pokemon</title> 
+<link rel="stylesheet" href="Styles\styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body id="AvP">
+    <header>
+<div class="navbar" id="myNavbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="AboutUs.html">About us</a>
+    <a href="BlackRhino.html">Black Rhino</a>
+    <a href="BlueWhale.html">Blue Whale</a>
+    <a href="Tigers.html">Tigers</a>
+    <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+    </header>
+<section class="container">
+    <h1>Animals and Pokémon</h1>
+    <p>Most Pokémon are based off of an animal of some variety. To see which animal has influenced certain Pokémon, enter the name of an <strong>animal</strong>in the box below. Not all animals are supported. Please ensure your spelling is correct.</p>
+</section>
+
+<div class="container">
+    <input type="text" id="searchInput" placeholder="Enter the name of an animal (e.g. tiger)"/>
+    <button id="searchBtn" onclick="handleSearch()">Search</button>
+</div>
+
+  
+<main class="results-grid" id="resultsGrid"></main>
+
+ 
+<footer>
+    <p style="text-align: center;">Designed by C. Dearing</p>
+</footer>
+
+<script src="Scripts/script.js"></script>
+<script src="Scripts/AvP.js"></script>
+</body>
+
+</html>

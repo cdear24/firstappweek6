@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Whale</title> 
+    <link rel="stylesheet" href="Styles/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar" id="myNavbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="AnimalsvsPokemon.html">Animals and Pokémon</a>
+      <a href="BaldEagle.html">Bald Eagle</a>
+      <a href="BlackRhino.html">Black Rhino</a>
+      <a href="Capybara.html">Capybara</a>
+      <a href="KingCobra.html">King Cobra</a>
+      <a href="Tigers.html">Tiger</a>
+      <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+
+  <div id="whale-heading">
+  <h1>Blue Whale</h1>
+  </div>
+  <section>
+    <div class="row">
+      <div class="card">
+        <p style="font-size: 150%">The blue whale (balaenoptera musculus) is the largest known animal to have ever lived on Earth, reaching lengths of up to 30m and weighing as much as 130,000kg.</p>
+        <img src="Images/BlueWhale.webp" alt="Picture of a blue whale" width="100%" height="462">
+      </div>
+      
+    </div>
+    <br>
+    <br>
+  </section>
+
+  <div class="container">
+  <h2>Quick Facts</h2>
+  <div class="row">
+    <div class="column">
+      <ul>
+        <li>Blue whales are found in all of the planet's oceans with the exception of the Arctic Ocean.</li>
+        <li>A blue whale's tongue weighs as much as an elephant, while its heart is the size of a car.</li>
+        <li>A blue whale's diet consists mostly of krill, and it eats up to 40 million of them every day.</li>    
+      </ul>
+    </div>
+    <div class="column">
+      <ul>
+        <li>Blue whale's are the loudest animals on Earth, with their calls reaching as many as 188 decibels (louder than a jet engine).</li>
+        <li>Other whales can hear their calls from up to 1600km away.</li>
+        <li>Blue whales are classified as an endagered species, with a global population of between 10-25,000, down from an estimated 300,000 before whaling reduced their numbers significantly.</li>
+      </ul>
+    </div>
+    <div class="column">
+      <ul>
+        <li> A blue whale's lifespan is between 80-90 years on average.</li>
+        <li>Although blue whales must surface to breathe, they can dive to depths of up to 500 metres and can spend around 35 minutes underwater.</li>
+        <li>Blue whale calves are born more than seven metres long and weigh up to 3,000kg (as much as a fully grown rhinoceros).</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+<br>
+<br>
+
+<section class="chart-container">
+<canvas id="whaleChart" style="width:100%;max-width:600px"></canvas>
+</section>
+
+<footer>
+    <p style="text-align: center;">Designed by C. Dearing</p>
+</footer>
+
+<script src="Scripts/script.js"></script>
+<script src="Scripts/whalecomparison.js"></script>
+</body>
+
+</html>

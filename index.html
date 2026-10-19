@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interesting Animals</title> 
+<link rel="stylesheet" href="Styles\styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar" id="myNavbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="AnimalsvsPokemon.html">Animals and Pokémon</a>
+            <a href="BaldEagle.html">Bald Eagle</a>
+            <a href="BlackRhino.html">Black Rhino</a>
+            <a href="BlueWhale.html">Blue Whale</a>
+            <a href="Capybara.html">Capybara</a>
+            <a href="KingCobra.html">King Cobra</a>
+            <a href="Tigers.html">Tiger</a>
+            <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <h1 class="container">
+        Interesting Animals of the World
+    </h1>
+      <p class="container">
+        The world we live in is an incredibly diverse place with millions of different species. This site is dedicated to some of the most incredible animals you will find on land, in the oceans, or in the sky and some of the craziest facts about them and the influences they have on our lives and in our culture. To learn more, click on one of the animals below.</p>
+
+<section style="margin-bottom:75px">
+        <div class="row">
+            <div class="column">
+                <a href="Tigers.html" class="card-link">
+                    <div class="card">
+                    <img class="card-img" src="Images\Tiger.jpg" alt="A picture of a Bengal Tiger">
+                    <h4 class="card-heading"><b>Tiger</b></h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="BaldEagle.html" class="card-link">
+                    <div class="card">
+                    <img class="card-img" src="Images\BaldEagle.jpg" alt="A picture of a Bald Eagle perched atop a branch">
+                    <h4 class="card-heading"><b>Bald Eagle</b></h4>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="column">
+                <a href="KingCobra.html" class="card-link">
+                    <div class="card">
+                    <img class="card-img" src="Images\KingCobra.jpg" alt="A picture of a King Cobra">
+                    <h4 class="card-heading"><b>King Cobra</b></h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="BlueWhale.html" class="card-link">
+                    <div class="card">
+                    <img class="card-img" src="Images\BlueWhale.webp" alt="A picture of a Blue Whale">
+                    <h4 class="card-heading"><b>Blue Whale</b></h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="BlackRhino.html" class="card-link">
+                    <div class="card">
+                    <img class="card-img" src="Images/Black Rhino.webp" alt="A picture of a Black Rhino">
+                    <h4 class="card-heading"><b>Black Rhino</b></h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="Capybara.html" class="card-link">
+                    <div class="card">
+                    <img class="card-img" src="Images/Capybara.webp" alt="A picture of a Capybara">
+                    <h4 class="card-heading"><b>Capybara</b></h4>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+</section>
+
+
+
+<div class="contact-container">
+    <h2>
+        Ask us a question
+    </h2>
+    <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+        <label for="fname"> First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="someone@gmail.com">
+        <label for="subject">Question:</label>
+        <textarea id="subject" name="subject" placeholder="Please write your question here..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<footer>
+    <p style="text-align: center;">Designed by C. Dearing</p>
+</footer>
+
+<script src="Scripts/script.js"></script>
+<script src="Scripts/validate.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+Used to help create navbar:
+https://www.w3schools.com/howto/howto_js_topnav.asp
+https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-bars
+
+Used to help create cards:
+https://www.w3schools.com/howto/howto_css_cards.asp
+
+Used to help build contact forms: 
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_email
+https://www.w3schools.com/tags/att_input_type_email.asp
+https://www.w3schools.com/html/html_forms.asp
+
+-->
